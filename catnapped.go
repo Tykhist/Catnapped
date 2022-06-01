@@ -11,6 +11,12 @@ func getRandomElement(slice []string) string {
 }
 
 func main() {
+  /*
+  Currently, the code only chooses a random guest and place from the arrays.
+  However, I want to add inputs to make this an actual game.
+  The player should get 3 guesses and an option to quit, with unique dialogue.
+  There should also be a section that restarts the game in the player chooses to, if possible.
+  */
   rand.Seed(time.Now().UnixNano())
   
   guestList := [8]string{"Viridian", "Cerulean", "Umber", "Cinnabar", "Chartreuse", "Periwinkle", "Ochre", "Vermillion"}
