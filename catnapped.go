@@ -19,7 +19,7 @@ func main() {
   */
   rand.Seed(time.Now().UnixNano())
   
-  guestList := [8]string{"Viridian", "Cerulean", "Umber", "Cinnabar", "Chartreuse", "Periwinkle", "Ochre", "Vermillion"}
+  guestList := [8]string{"Viridian", "Cerulean", "Umber", "Carmine", "Chartreuse", "Zaffre", "Ochre", "Vermillion"}
   fmt.Println("Guests:", guestList)
 
   catStorage := [...]string{"garage", "crate", "closet", "bathtub", "box", "cabinet"}
